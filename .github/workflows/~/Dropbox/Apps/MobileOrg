@@ -1,0 +1,16 @@
+You can verify the path by opening the iCloud Drive folder in Finder on macOS, look for MobileOrg folder inside, right-click on it, hold Alt and select “Copy “MobileOrg” as Pathname”. The proper path will be copied to the clipboard.
+
+If you encounter issues you can try downloading the files to your device using the Files app, making sure to press the cloud icon for each of the files to download the file locally to your device.
+
+iCloud Sync is a new feature as of v1.7.5, please report issues on Github
+
+Using Dropbox#
+If you’re not familiar with it already, Dropbox provides 2GB of free storage that can be synchronized between multiple devices. MobileOrg can use Dropbox as a transfer backend as an alternative to WebDAV to make setup easier.
+
+To get started with MobileOrg + Dropbox:
+
+You must first setup an account on https://www.dropbox.com
+Open MobileOrg, go to Settings, choose the Dropbox button at the top. Enter your email address and password, then click ‘Log in to Dropbox’.
+If login was successful, please proceed. Otherwise, correct your credentials/make sure you have network access, and retry.
+Upon successful login, a new folder, ~/Dropbox/Apps/MobileOrg will automatically be created.
+You should edit your Org mode configuration to contain something like this
